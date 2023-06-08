@@ -1,0 +1,22 @@
+server:
+  port: 1081
+
+spring:
+  application:
+    name: Java_Medical_Store
+
+  datasource:
+      url: jdbc:mysql://127.0.0.1:3306/try
+      username: smitsql
+      password: Smit@1234
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+  security:
+    user:
+      name: smit
+      password: smit
+      roles:
+      - Admin
+
+  jpa:
+    show-sql: true
